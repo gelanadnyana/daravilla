@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.slideimg img{
+    height: 538px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+nav {
+    background: linear-gradient(to bottom, #fff, transparent);
+
+}
+.navbar{
+    position: absolute;
+    height: 100px;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+
+}
+.navbar-brand{
+    font-weight: 700;
+    color: black;
+}
+.btn{
+    color: #fff;
+    background-color: #db0007;
+    margin-right: 100px;
+    border-color: #d30007;
+    box-shadow: 0 0.75rem 1.5rem -0.5rem rgb(219 0 7 / 30%);
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.btn:hover{
+    background-color: #c50107;
+    border-color: #b5060c;
+}
+.nav-item:after{
+    content: '';
+    transform: scale(0);
+    display: block;
+    padding-bottom: 0,5rem;
+    border-bottom: 0.1rem solid #b5060c;
+    transition: .5s;
+}
+.nav-item:hover::after{
+    transform: scale(1);
+}
+.lio a:hover{
+    color: #b5060c;
+}
+.lio .lie{
+    font-weight: 500;
+}
+.navbar{
+    background-color: transparent;
+    position: fixed;
+}
+.bg-white{
+    background-color: white !important;
+    transition: 0.5s !important;
+
+}
+.content{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+}
+/* Section 2 */
+.judul h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+.kolom1 input{
+    border: 1px solid #a9a9a9;
+}
+input::placeholder{
+    padding-left: 20px;
+}
+.kolom2 input{
+    border: 1px solid #a9a9a9;
+}
+.kolom3 select option{
+    border-radius: 1px solid #a9a9a9;
+}
+textarea {
+    padding-left: 20px;
+    color: #a9a9a9;
+}
+button img {
+    transform: rotate(270deg);
+}
+button{
+    width: 180px;
+    height: 40px;
+    border: none;
+}
+button img{
+    color: #fff;
+    margin-right: 10px;
+}
+/* footer */
+.footer{
+    background-color: #f5f5f5;
+    padding-top: 120px;
+    height: 600px;
+}
+.content5  a{
+    text-decoration: none;
+    color: #808000;
+    font-weight: 100;
+
+}
+.content6 a{
+    text-decoration: none;
+    color: #808000;
+    font-weight: 100    ;
+
+}
+.copyright p{
+    margin-left: 50px;
+}
